@@ -1,0 +1,12 @@
+.textFieldCountryList {
+    width: 300px;
+    height: 40px;
+    padding-left: 10px;
+    margin: 16px;
+}
+.wrapperCountryList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

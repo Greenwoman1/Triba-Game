@@ -1,0 +1,28 @@
+.tableContainer {
+    margin: 0px;
+    padding:35px
+}
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.tableHeader {
+    color: rgba(0, 74, 149, 0.8);
+    background-color:white
+
+}
+.tableCell {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+    background-color: rgba(0, 170, 200, 0.8)
+}
+.tableHeaderCell {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+    font-weight: bold;
+}
+.header{
+    color: rgba(0, 74, 149, 0.8);
+}

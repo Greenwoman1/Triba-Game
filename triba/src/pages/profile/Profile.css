@@ -1,0 +1,65 @@
+.textField {
+    width: 300px;
+    height: 40px;
+    padding-left: 10px;
+    margin: 16px
+}
+.window {
+    display: flex;
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    padding: 40px
+}
+.windowWrapper {
+    position: relative;
+    top: 40px;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+.updateButton {
+    margin: 40px 16px 16px 16px;
+    padding: 8px 4px;
+    width: 300px;
+    font-size: 20px;
+    font-weight: 800;
+    background-color: rgba(0, 74, 149, 0.8);
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    transition: 300ms;
+}
+.updateButton:hover{
+    opacity: 70%;
+}
+.title {
+    font-size: 40px;
+    margin: 40px
+}
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px
+}
+.profileImage {
+    height: 200px
+}
+.imageWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    flex-direction: column
+}
+.imageInput {
+    display: none
+}

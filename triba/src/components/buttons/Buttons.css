@@ -1,0 +1,21 @@
+.buttonButtons {
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: transparent;
+    margin: 0;
+    border: none;
+    cursor: pointer
+  }
+  .buttonRowButtons {
+      padding: 20px;
+      display: flex;
+      gap: 8px;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: rgba(0,0,0,0.3);
+      filter: drop-shadow(0px 37px 23px #000);
+      border-radius: 16px;
+      width: 10%
+  }
